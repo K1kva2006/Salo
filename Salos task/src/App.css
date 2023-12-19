@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+}
+ul {
+  max-width: 300px;
+  width: 100%;
+  background-color: rgb(112, 110, 110);
+  border: 2px solid black;
+  display: flex;
+  padding: 2px;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  font-size: 18px;
+}
+li {
+  list-style-type: none;
+}
